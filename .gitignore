@@ -1,0 +1,10 @@
+__pycache__/
+
+Models/session2_prev/
+Models/session3_prev/
+Models/session4_prev/
+Models/session5_prev/
+
+Images/Plots/neo*.jpg
+
+test_sumo.py
