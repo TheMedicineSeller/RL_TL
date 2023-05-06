@@ -7,5 +7,10 @@ The environment for the learning and simulating process are enabled by the [SUMO
 
 The performance is judged by inferring the average wait time and the average queue length for all cars. It is also judged by running the simulation of trained agents.
 
+# Prerqusites
+1. SUMO api, both [cli and gui](https://sumo.dlr.de/docs/Installing/index.html)
+2. traci python library (pip install traci)
+3. tensorflow (for loading models and for training) 
+
 # Future improvements
 Implement Multi agent DDPG to better optimize training both agents into developing a shared concern for the wait time incurred by both.
